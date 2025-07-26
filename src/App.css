@@ -1,0 +1,29 @@
+/* App.css */
+.app.light {
+  background-color: #fff8f0; /* pastel peach */
+  color: #222222;            /* soft dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app.dark {
+  background-color: #1a1a2e; /* midnight navy blue */
+  color: #f5f5f5;            /* soft white text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.theme-btn {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.theme-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

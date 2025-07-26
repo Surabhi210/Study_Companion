@@ -1,0 +1,30 @@
+.pomodoro {
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 2rem;
+  border-radius: 10px solid black;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.timer {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
+.controls button {
+  background-color: #26acc7;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.controls button:hover {
+  background-color: #093eb1;
+}

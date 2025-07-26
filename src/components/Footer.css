@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-size: 1.3rem;
+}
+
+.footer-links{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover{
+    color: aqua;
+}

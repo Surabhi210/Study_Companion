@@ -1,0 +1,129 @@
+.task-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #f7f7ff; /* soft lavender */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark .task-container {
+  background-color: #2c2c3e; /* elegant dark */
+  color: #f2f2f2;
+}
+
+.task-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: inherit;
+}
+
+/* Input row styles */
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .input-row input {
+  background-color: #44475a;
+  border: 1px solid #666;
+  color: #f2f2f2;
+}
+
+.input-row button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-row button:hover {
+  background-color: #0056b3;
+}
+
+/* Task list styles */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #ffffff;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark .task-list li {
+  background-color: #3a3b4a;
+  color: #f2f2f2;
+}
+
+/* Editable input */
+.task-list input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .task-list input[type="text"] {
+  background-color: #44475a;
+  border: 1px solid #666;
+  color: #f2f2f2;
+}
+
+/* Buttons inside task items */
+.btns button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.btns .delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btns .delete:hover {
+  background-color: #b02a37;
+}
+
+.update {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.update:hover {
+  background-color: #1c7c34;
+}
